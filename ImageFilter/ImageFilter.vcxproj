@@ -146,6 +146,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="filter_algorithm.h" />
+    <ClInclude Include="gaussian_filter_algorithm.h" />
+    <ClInclude Include="high_pass_filter_algorithm.h" />
     <ClInclude Include="image_data.h" />
     <ClInclude Include="bmp_image_data.h" />
     <ClInclude Include="mean_filter_algorithm.h" />
@@ -155,6 +157,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="filter_algorithm.cpp" />
+    <ClCompile Include="gaussian_filter_algorithm.cpp" />
+    <ClCompile Include="high_pass_filter_algorithm.cpp" />
     <ClCompile Include="ImageFilter.cpp" />
     <ClCompile Include="bmp_image_data.cpp" />
     <ClCompile Include="mean_filter_algorithm.cpp" />
